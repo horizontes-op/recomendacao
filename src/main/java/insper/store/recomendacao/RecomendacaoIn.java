@@ -1,7 +1,4 @@
 package insper.store.recomendacao;
-
-import java.sql.Date;
-
 import lombok.Builder;
 import lombok.experimental.Accessors;
 

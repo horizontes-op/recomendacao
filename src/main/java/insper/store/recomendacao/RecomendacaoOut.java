@@ -1,15 +1,13 @@
 package insper.store.recomendacao;
-
-import java.sql.Date;
-
-import javax.print.DocFlavor.STRING;
-
 import lombok.Builder;
 import lombok.experimental.Accessors;
 
 @Builder
 @Accessors(fluent = true, chain = true)
 public record RecomendacaoOut (
+    String id,
+    String id_aluno,
+    String id_instituicao,
     String motivo,
     String nome,
     String area_atuacao,

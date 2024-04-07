@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>insper.store</groupId>
-	<artifactId>aluno</artifactId>
+	<artifactId>recomendacao</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>aluno</name>
+	<name>recomendacao</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -27,6 +27,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		 <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>4.9.1</version> <!-- Versão atualizada do OkHttp -->
+    </dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -38,6 +43,7 @@
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
+
 	</dependencyManagement>
 
 </project>

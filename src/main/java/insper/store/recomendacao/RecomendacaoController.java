@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 
 @FeignClient(name = "store-recomendacao")
-public interface AlunoController {
+public interface RecomendacaoController {
 
     @PostMapping("/recomendacao")
     public ResponseEntity<RecomendacaoOut> create(
