@@ -19,7 +19,7 @@ public interface RecomendacaoController {
     );
     
 
-    // public ResponseEntity<RecomendacaoOut> read(
-    //     @PathVariable(required = true) String id
-    // );
+    public ResponseEntity<RecomendacaoOut> read(
+        @PathVariable(required = true) String id
+    );
 }
