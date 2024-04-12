@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Jenkins Recommendacao') {
+        stage('recomendacao interface') {
             steps {
-                echo 'Jenkins Recomendacao'
+                echo 'recomendacao interface'
             }
         }
-        stage('Build') { 
+        stage('build recomendacao interface') { 
             steps {
                 sh 'mvn clean install'
             }
